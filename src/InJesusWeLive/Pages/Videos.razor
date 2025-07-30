@@ -1,0 +1,23 @@
+﻿@page "/videos"
+
+<PageTitle>Vídeos</PageTitle>
+
+<MudGrid Spacing="3" Justify="Justify.Center" Style="margin-top: 20px;">
+    <MudItem>
+        <MudCard Style="width: 420px;">
+            <MudCardContent Style="padding: 16px;">
+                <!-- Embedded YouTube Video -->
+                <iframe width="400" height="225"
+                        src="https://www.youtube.com/embed/sVQsqt3Se4k?cc_lang_pref=pt&cc_load_policy=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+
+                <MudText Typo="Typo.caption" Style="margin-top: 12px; display: block; color: gray;">
+                    Se as legendas em Português (Brasil) não aparecerem automaticamente, clique no ícone "CC" na barra do player do YouTube e selecione "Português (Brasil)".
+                </MudText>
+            </MudCardContent>
+        </MudCard>
+    </MudItem>
+</MudGrid>
